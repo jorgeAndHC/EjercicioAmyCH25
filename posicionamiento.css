@@ -1,0 +1,43 @@
+body{
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.box{
+    display: inline-block; 
+    /*Controla estructuras: block(coloca en bloques hacia abajo), inline block (bloques en una linea),inline (elmentos en linea), none (oculta elementos) */
+    width: 100px; /*Ancho*/
+    height: 100px; /*Altura*/
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+
+    color: white;/*Color texto*/
+}
+
+#three {
+    position: relative; /*Absolute (los manda arriba), fixed(se posiciona al lado del navegador), sticky (se pega en su lugar), relativo (), static()*/
+    top: 20px;
+    left: 20px;
+    background-color: palevioletred;
+}
+#one {
+    position: relative; /*Absolute (los manda arriba), fixed(se posiciona al lado del navegador), sticky (se pega en su lugar), relativo (), static()*/
+    top: 20px;
+    left: 20px;
+    background-color: palevioletred;
+}
+/*Las clases se llaman con .clase y los id con #id
+Padding: espacio entre contenido y borde*/
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow: auto; /*hidden (limita bloques), scroll(crea un scroll), auto (permite hacer hacia arriba y abajo scroll) */
+    padding-left: 150px;/*espacio entre contenido y borde*/
+
+}
